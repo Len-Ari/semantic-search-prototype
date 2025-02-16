@@ -1,0 +1,12 @@
+# Somehow needs to incluse:
+# SentenceTransformer, psycopg2, python-dotenv(Or env variables set...), fastapi, sth else
+fastapi[standard]==0.115.5
+pydantic>=2.7.0,<3.0.0
+pydantic-settings
+psycopg2==2.9.9
+python-dotenv==0.21.0
+requests==2.32.3
+torch==2.4.1
+transformers==4.45.2
+sentence-transformers==3.3.1
+cachetools==5.5.0
