@@ -1,7 +1,8 @@
-import Database_Test.pg_db_setup_query as dbFunc
+import pg_db_setup_query as dbFunc
 import time
-from Database_Test.pg_db_connect import get_database_connection
+from pg_db_connect import get_database_connection
 
+# Need to add path to jsonl file
 file_path = ''
 
 query = ["chronic kidney disease"]
